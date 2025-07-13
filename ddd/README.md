@@ -1,0 +1,1 @@
+# Se crea la carpeta src a nivel proyecto y se pone en el composer.json en el "autoload" para que sea reconocida
