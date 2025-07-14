@@ -17,6 +17,7 @@ class Example
     // *Metodo handle se va a ejecutar antes de que se ejecute el controlador
     public function handle(Request $request, Closure $next): Response
     {
+        return redirect()->route('no-access');
         return $next($request);
     }
 }
